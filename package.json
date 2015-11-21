@@ -1,0 +1,20 @@
+{
+  "name": "dyeje",
+  "version": "0.0.1",
+  "description": "Jeremy Dye's website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "dyeje",
+    "Jeremy",
+    "Dye"
+  ],
+  "author": "Jeremy Dye",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
