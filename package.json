@@ -4,7 +4,7 @@
   "description": "Jeremy Dye's website.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+
   },
   "keywords": [
     "dyeje",
