@@ -5,14 +5,15 @@ block content
   p I like to make things people enjoy.
 
   a.link(href="mailto:dyeje@mail.gvsu.edu")
-    img.logo(src="css/email.ico")
+    img.logo(src="icons/email.ico")
     span.align Email
+
   a.link(href="/resume.pdf" download="dyejeResume")
-    img.logo(src="css/pdf.png")
+    img.logo(src="icons/pdf.png")
     span.align Resume
-  a.link(href="http://www.github.com/dyeje" target="_blank")
-    img.logo(src="css/github.png")
-    span.align Github
+
+  +githubLink("http://www.github.com/dyeje", "GitHub")
+  
   a.link(href="https://www.linkedin.com/in/dyeje" target="_blank")
-    img.logo(src="css/linkedin.png")
+    img.logo(src="icons/linkedin.png")
     span.align LinkedIn

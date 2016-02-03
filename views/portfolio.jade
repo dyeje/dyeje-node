@@ -1,8 +1,23 @@
 extends ./layout.jade
 
 block content
+  div.professional
+    h2 Professional Projects
+    p As a professional web developer, I've worked on projects which have private code bases. These are the majority of my body of work. I can't talk about them in depth on here, so if you're interested just shoot me an email!
+
   div.surrounded
     h2 Surrounded
-    p Surrounded is an HTML5 Canvas game. It's inspired by the Flash game Fishy. I was never satisfied by the difficulty of Fishy so I decided to put my own spin on it.  It's the first game I've made, and I'm pretty satisfied with how it turned out.  I'm still working on polishing up the user experience (instructions, menus, etc), but the core gameplay is finished.
+    +githubLink("https://github.com/dyeje/surrounded", "View it on GitHub")
+    p Surrounded is an HTML5 Canvas game. It's inspired by the Flash game Fishy. I was never satisfied by the difficulty of Fishy so I decided to put my own spin on it. It's the first game I've made, and I'm pretty satisfied with how it turned out. I'm still working on polishing up the user experience (instructions, menus, etc), but the core gameplay is finished.
     div.img-container
       img.portfolio-img(src="surrounded.png")
+
+  div.sw-dice-roller
+    h2 swDiceRoller
+    +githubLink("https://github.com/dyeje/swDiceRoller", "View it on GitHub")
+    p I play Edge of the Empire, a tabletop Star Wars game, in my free time.  It uses a unique dice system and my group only has so many sets.  I decided to make a digital dice roller to save some time at the table and have some fun.
+
+  div.dyeje
+    h2 This Site
+    +githubLink("https://github.com/dyeje/dyeje", "View it on GitHub")
+    p This site is a simple node.js server.  It was fun to make an elegant little webserver and dip my feet into AWS.
