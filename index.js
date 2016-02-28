@@ -3,6 +3,7 @@ var app = express()
 
 app.set('view engine', 'jade');
 app.use(express.static('public'));
+app.use(express.static('views/surrounded'));
 
 app.get('/', function (req, res) {
   res.render('about.jade', {
@@ -14,6 +15,10 @@ app.get('/portfolio', function (req, res) {
   res.render('portfolio.jade', {
     portfolio: true
   })
+})
+
+app.get('/surrounded', function (req, res) {
+  res.sendfile('./views/surrounded/surrounded.html')
 })
  
 app.listen(8080)

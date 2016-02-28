@@ -1,0 +1,3 @@
+[submodule "views/surrounded"]
+	path = views/surrounded
+	url = https://github.com/dyeje/surrounded.git

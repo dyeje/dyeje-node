@@ -41,6 +41,10 @@ a.link {
   color: #4183c4;
 }
 
+.link--centered {
+  text-align: center;
+}
+
 h1 {
   font-family: "Verdana", sans-serif;
   font-size: 5em;
