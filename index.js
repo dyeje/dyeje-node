@@ -1,4 +1,5 @@
 var express = require('express')
+var path = require('path');
 var app = express()
 
 app.set('view engine', 'jade');
@@ -18,7 +19,7 @@ app.get('/portfolio', function (req, res) {
 })
 
 app.get('/surrounded', function (req, res) {
-  res.sendfile('./views/surrounded/surrounded.html')
+  res.sendFile(path.resolve(__dirname) + '/views/surrounded/surrounded.html')
 })
  
 app.listen(8080)
