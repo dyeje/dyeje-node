@@ -11,6 +11,7 @@
 
 .align {
   vertical-align: middle;
+  padding-top: 2px;
 }
 
 .logo {
@@ -34,14 +35,16 @@
   padding-bottom: 50px;
 }
 
-a.link {
-  display: block;
+.link {
+  display: inline-block;
   margin-bottom: 10px;
   text-decoration: none;
-  color: #4183c4;
+  font-weight: bold;
+  color: #797979;
 }
 
 .link--centered {
+  display: block;
   text-align: center;
 }
 
