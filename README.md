@@ -1,3 +1,2 @@
-# dyeje
-This is my personal website. 
-It's a great way to get to know me a little better.
+# dyeje-node
+This was my personal site when I had some free AWS credits.  I'm moving it to S3 now to reduce costs.
